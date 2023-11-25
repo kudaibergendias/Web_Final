@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="icon/photo_2023-10-25_13-02-10.jpg" type="image/x-icon">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <img src="photo/GHOb-removebg-preview.png" alt="Bootstrap" width="90" height="80" id="navbar_icon">
+                <p class="navbar-brand my-auto">Golden Hands Of Beauty.</p>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 448 512" class="svg_toggler">
+                        <path
+                            d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="main.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item-text" href="SPA.html">SPA</a></li>
+                                <li><a class="dropdown-item-text" href="Cosmetology.html">Cosmetology</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Abut Us.html">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Self-Care Resources.html">Self-Care
+                                Resources</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Booking.html">Booking</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">+7-777-111-1111</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <div class="containerr">
+            <div class="programm-title">
+                <p>SPA programm</p>
+                <div class="rolling-ball"></div>
+            </div>
+            <div class="container-fluid my-carousel">
+                <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel"
+                    data-bs-interval:="4000">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                    </div>
+                    <div id="myCarousel" class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/tsexr-iridium-spa-8012-hor-feat.png" class="d-block w-100" alt=""
+                                width="700" height="550">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/foto-1.jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/4301_Summer Facials - Gradient Graphic_1181x539_V4.jpg"
+                                class="d-block w-100" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/hp-hero-01.jpg" class="d-block w-100" alt="">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row row-cols-1 row-cols-md-3 g-4 px-5">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/massage-therapy-career.png" id="height" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Massage</h5>
+                        <p class="card-text">Various types of massage such as Swedish, Thai, hot stone, etc. for
+                            relaxation and stress relief.</p>
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Massage</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            Swedish Massage:
+                                            Focus: Relaxation and overall well-being.
+                                            Techniques: Long, gliding strokes, kneading, and circular movements. It's
+                                            gentle and great for beginners.
+                                            <br>
+                                            <hr>
+                                            Thai Massage:
+                                            Focus: Energy flow and flexibility.
+                                            Techniques: Involves stretching, pulling, and rocking motions. It's often
+                                            done on a mat on the floor, and you remain fully clothed.
+                                            <br>
+                                            <hr>
+                                            Hot Stone Massage:
+                                            Focus: Relaxation and muscle tension relief.
+                                            Techniques: Smooth, heated stones are placed on specific points on the body.
+                                            The heat helps to relax muscles, making it easier for the therapist to
+                                            manipulate deep tissues.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" id="btn" class="btn btn-success" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">Learn more</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100" id="id">
+                    <img src="images/sis-488652-other-hotel-services-amenities.jpg" id="height" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Facial care</h5>
+                        <p class="card-text">Treatments to improve the condition of facial skin, including cleansing,
+                            peeling and masks.</p>
+                        <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel1" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Facial care</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            Cleansing:
+                                            Purpose: To remove dirt, oil, and makeup.
+                                            Methods: Use a gentle cleanser suitable for your skin type. Double cleansing
+                                            (using an oil-based cleanser followed by a water-based one) is popular for a
+                                            thorough clean.
+                                            <br>
+                                            <hr>
+                                            Facial Massage:
+                                            Purpose: Improves blood circulation, relaxes facial muscles, and enhances
+                                            product absorption.
+                                            Techniques: Circular motions, tapping, and gentle strokes. Can be done with
+                                            clean hands or using tools like jade rollers.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" id="btn" class="btn btn-success" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop1">Learn more</button>
+                </div>
+
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/AdobeStock_56635333.jpeg" id="height" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Manicure and pedicure</h5>
+                        <p class="card-text">Care of nails and skin of hands and feet, including massage and application
+                            of varnish.</p>
+                        <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel2" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Manicure and pedicure</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            Nail Cleaning:
+                                            Purpose: Remove old polish and clean the nails.
+                                            Methods: Use a non-acetone nail polish remover and a gentle nail brush.
+                                            <br>
+                                            <hr>
+                                            Shaping:
+                                            Purpose: Achieve the desired nail shape.
+                                            Techniques: Use a nail file to shape the nails according to your preference.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" id="btn" class="btn btn-success" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop2">Learn more</button>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row row-cols-1 row-cols-md-3 g-4 px-5">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/what-is-hydrotherapy.jpg" id="height" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Hydrotherapy</h5>
+                        <p class="card-text">Relaxation baths, Jacuzzis and saunas for relaxation and wellness.</p>
+                        <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel3" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Hydrotherapy</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            Relaxation Baths:
+                                            Purpose: Relaxation and stress relief.
+                                            Methods: Immerse the body in a bath with warm water infused with essential
+                                            oils, bath salts, or other relaxing additives.
+                                            Benefits: Helps to soothe muscles, alleviate tension, and provide a calming
+                                            effect on the mind.
+                                            <br>
+                                            <hr>
+                                            Jacuzzis (Hot Tubs):
+                                            Purpose: Relaxation and hydro-massage.
+                                            Methods: Submerge the body in a hot tub with water jets that provide
+                                            massaging effects on muscles and joints.
+                                            Benefits: Improves blood circulation, relieves muscle soreness, and creates
+                                            a soothing environment for relaxation.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" id="btn" class="btn btn-success" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop3">Learn more</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/aromatherapy-definition.jpg" id="height" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Aromatherapy</h5>
+                        <p class="card-text">Using aromatic oils and essential oils for relaxation and uplifting mood.
+                        </p>
+                        <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel4" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Aromatherapy</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            Essential Oils:
+                                            Extraction: Essential oils are extracted from various parts of plants,
+                                            including flowers, leaves, bark, stems, and roots.
+                                            Methods: Extraction methods include distillation, cold-press extraction, and
+                                            solvent extraction.
+                                            <br>
+                                            <hr>
+                                            Application Methods:
+                                            Diffusion: Using devices like diffusers to disperse essential oil molecules
+                                            into the air for inhalation.
+                                            Topical Application: Diluting essential oils with a carrier oil and applying
+                                            them to the skin through massage or specific targeted areas.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" id="btn" class="btn btn-success" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop4">Learn more</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/istockphoto-1325274318-612x612.jpg" id="height" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Wraps</h5>
+                        <p class="card-text">Care of nails and skin of hands and feet, including massage and application
+                            of varnish.</p>
+                        <div class="modal fade" id="staticBackdrop5" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel5" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Wraps</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            Detoxing and remineralizing body wraps. Detox wraps use a variety of
+                                            products such as algae,
+                                            seaweed, mud, clay or gel to help rid the body of toxins.
+                                            <br>
+                                            <hr>
+                                            Hydrating body wraps. Hydrating body wraps use creams and gels to soften,
+                                            soothe and hydrate the skin.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" id="btn" class="btn btn-success" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop5">Learn more</button>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row row-cols-1 row-cols-md-3 g-4 px-5">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/afro-american-couple-doing-yoga-royalty-free-image-598708752-1548713240.jpg"
+                        id="height" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Yoga and Fitness</h5>
+                        <p class="card-text">Yoga, Pilates or fitness classes to strengthen the body and mind</p>
+                        <div class="modal fade" id="staticBackdrop6" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel6" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Yoga and Fitness</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            Benefits of Yoga:
+                                            Improved flexibility, strength, and posture.
+                                            Stress reduction and enhanced mental well-being.
+                                            Increased body awareness and mindfulness.
+                                            <br>
+                                            <hr>
+                                            Benefits of Fitness:
+                                            Improved cardiovascular health and stamina.
+                                            Increased strength, flexibility, and muscle tone.
+                                            Stress relief and mood enhancement.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" id="btn" class="btn btn-success" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop6">Learn more</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/kapama-wellness-centre-hydro-room-590x390.jpg" id="height" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Exotic treatments</h5>
+                        <p class="card-text">For example, Thai massage, hammam or Ayurvedic treatments, offering unique
+                            ways of relaxation and self-care.</p>
+                        <div class="modal fade" id="staticBackdrop7" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel7" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Exotic treatments</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            Ayurvedic Treatments:
+                                            Benefits:
+                                            Balance of mind, body, and spirit.
+                                            Stress reduction and rejuvenation.
+                                            Support for overall health and well-being.
+                                            <br>
+                                            <hr>
+                                            Balinese Massage:
+                                            Benefits:
+                                            Improved blood circulation and lymphatic drainage.
+                                            Relief from muscle tension and joint pain.
+                                            Deep relaxation and a sense of harmony.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" id="btn" class="btn btn-success" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop7">Learn more</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <div class="fab mb-2 mx-2 container-fluid">
+            <ul class="fab-buttons">
+                <li class="fab-buttons__item">
+                    <a href="#" class="fab-buttons__link" data-tooltip="Facebook">
+                        <svg class="icon-material" xmlns="http://www.w3.org/2000/svg" height="0.625em"
+                            viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <style>
+                                svg {
+                                    fill: #275d00
+                                }
+                            </style>
+                            <path
+                                d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="fab-buttons__item">
+                    <a href="#" class="fab-buttons__link" data-tooltip="Twitter">
+                        <svg class="icon-material" xmlns="http://www.w3.org/2000/svg" height="0.625em"
+                            viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM351.3 199.3v0c0 86.7-66 186.6-186.6 186.6c-37.2 0-71.7-10.8-100.7-29.4c5.3 .6 10.4 .8 15.8 .8c30.7 0 58.9-10.4 81.4-28c-28.8-.6-53-19.5-61.3-45.5c10.1 1.5 19.2 1.5 29.6-1.2c-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3c-9-6-16.4-14.1-21.5-23.6s-7.8-20.2-7.7-31c0-12.2 3.2-23.4 8.9-33.1c32.3 39.8 80.8 65.8 135.2 68.6c-9.3-44.5 24-80.6 64-80.6c18.9 0 35.9 7.9 47.9 20.7c14.8-2.8 29-8.3 41.6-15.8c-4.9 15.2-15.2 28-28.8 36.1c13.2-1.4 26-5.1 37.8-10.2c-8.9 13.1-20.1 24.7-32.9 34c.2 2.8 .2 5.7 .2 8.5z" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="fab-buttons__item">
+                    <a href="#" class="fab-buttons__link" data-tooltip="Linkedin">
+                        <svg class="icon-material" xmlns="http://www.w3.org/2000/svg" height="0.625em"
+                            viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="fab-buttons__item">
+                    <a href="#" class="fab-buttons__link" data-tooltip="Google+">
+                        <svg class="icon-material" xmlns="http://www.w3.org/2000/svg" height="0.625em"
+                            viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM164 356c-55.3 0-100-44.7-100-100s44.7-100 100-100c27 0 49.5 9.8 67 26.2l-27.1 26.1c-7.4-7.1-20.3-15.4-39.8-15.4-34.1 0-61.9 28.2-61.9 63.2 0 34.9 27.8 63.2 61.9 63.2 39.6 0 54.4-28.5 56.8-43.1H164v-34.4h94.4c1 5 1.6 10.1 1.6 16.6 0 57.1-38.3 97.6-96 97.6zm220-81.8h-29v29h-29.2v-29h-29V245h29v-29H355v29h29v29.2z" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+            <span class="fab-action-button">
+                <i class="fab-action-button__icon"></i>
+            </span>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
